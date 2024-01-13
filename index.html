@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
-    <link rel="stylesheet" href="src/global.css">
+    <link rel="stylesheet" href="/src/global.css">
 </head>
+
 <body class="light">
     <div class="container">
-       <div class="eachCol left">
+        <div class="eachCol left">
             <div>
                 <div class="textHeader">simples cal</div>
-                <div id='themeButton' class="containerIcon">
-                    <i id="iconTheme" class="fas fa-sun"></i>
+                <div id="themeButton" class="containerIcon">
+                    <i id="iconTheme"  class="fas fa-sun"></i>
                 </div>
             </div>
-            <input placeholder="240x30"/>
+            <input id="inputCalc" placeholder="240x30" />
             <div>*press enter to find out the total</div>
-       </div>
-       <div class="eachCol right">
-            <div id='buttonpurple' class="containerpurple">
-                <i id="iconPurple" class="fas fa-poo-storm"></i>
-                </div>
-            <div class="resultText">0</div>
+        </div>
+        <div id="sideRigth" class="eachCol right yelow" >
+            <div id="themeButtonRight" >
+                <i id="iconTheme2" class="fas fa-moon"></i>
+            </div>
+            <div id="result" class="resultText">0</div>
             <div>→ view keyboard shortcuts</div>
-       </div>
+        </div>
     </div>
-    <script src="/scripts/theme.js"></script>
-    <script src="/scripts/calc.js"></script>
-    <script src="/scripts/buttonPurple.js"></script>
+<script src="/scripts/theme.js" ></script>
+<script src="/scripts/calc.js" ></script>
 </body>
-</html>
+<html>

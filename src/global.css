@@ -9,7 +9,6 @@
     --primaryColor: #fecc02;
     --textColor: #000;
     --placeholderColor: #b4b4b4;
-    --containerIconColor: rgba(0, 0, 0, 0.04);
 }
 
 .dark {
@@ -17,8 +16,15 @@
     --primaryColor: #fecc02;
     --textColor: #fff;
     --placeholderColor: #b4b4b4;
-    --containerIconColor: rgba(255, 255, 255, 0.04);
-    --darkColor: #390ac8;
+}
+
+.yellow{
+    --primaryColor: #fecc02;
+    
+}
+
+.purple{
+    --primaryColor: #4b0082;
 }
 
 * {
@@ -81,6 +87,10 @@ body {
 
 .right > div:first-child {
     height: 30px;
+    width: 100%;
+    text-align: end;
+    cursor: pointer;
+
 }
 
 input {
@@ -96,6 +106,7 @@ input {
 
 input::placeholder {
     color: var(--placeholderColor);
+    
 }
 
 input:focus {
@@ -115,21 +126,20 @@ input:focus {
     padding: 0.5rem;
     border-radius: 40px;
     cursor: pointer;
-    background-color: var(--containerIconColor)
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
-i {
+#iconTheme {
     font-size: 1.4rem;
     color: var(--primaryColor);
 }
 
-.containerpurple {
-    display: flex;
-    width: 100%;
-    justify-content: end;
-    align-items: center;
-    padding: 0.5rem;
-    border-radius: 40px;
-    cursor: pointer;
-    background-color: var(--textColor)
+#iconTheme {
+    font-size: 1.4rem;
+    color: var(--primaryColor);
+}
+
+#iconTheme2{
+    font-size: 1.4rem;
+    color: var(--textColor);
 }
